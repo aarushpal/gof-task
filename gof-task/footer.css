@@ -1,0 +1,49 @@
+body {
+  color: #3b3a3a !important;
+}
+
+.container-fluid {
+  background-color: #d8d8d8;
+}
+
+.box {
+  background-color: #f5f2fa;
+}
+/* Remove underline from links */
+ul.course-links li a {
+  text-decoration: none !important;
+  color: #3b3a3a;
+  line-height: 2;
+}
+
+/* Remove bullet points from list items */
+ul.course-links {
+  list-style-type: none !important;
+  padding: 0; /* Optional: Remove default padding */
+}
+
+ul.quick-links li a {
+  text-decoration: none !important;
+  color: #3b3a3a;
+  line-height: 2;
+}
+
+/* Remove bullet points from list items */
+ul.quick-links {
+  list-style-type: none !important;
+  padding: 0; /* Optional: Remove default padding */
+}
+
+/* .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+} */
+
+/* @media screen(max-width:) {
+} */
+
+.bi-telephone-fill {
+  color: black;
+}
